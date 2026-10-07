@@ -106,15 +106,15 @@
   .intro-section {
     padding: 2rem 1.5rem;
   }
-
+  
   .intro-header h1 {
     font-size: 2rem;
   }
-
+  
   .intro-details-card {
     padding: 1.5rem;
   }
-
+  
   .intro-grid {
     grid-template-columns: 1fr;
   }

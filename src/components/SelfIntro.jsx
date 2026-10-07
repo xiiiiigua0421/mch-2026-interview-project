@@ -7,7 +7,7 @@ const SelfIntro = () => {
       <div className="intro-header">
         <h1>歡迎來到梅竹黑客松 開發部 面試專案</h1>
         <p className="intro-text">
-          哈囉！我是 Jules，一名熱愛編程與解決問題的工程師。
+          哈囉！
           很高興能參與梅竹黑客松開發部的面試專案！
         </p>
       </div>
@@ -19,35 +19,39 @@ const SelfIntro = () => {
             <span className="intro-icon">👤</span>
             <div className="intro-content">
               <strong>姓名</strong>
-              <span>Jules</span>
+              <span>田俊騏</span>
             </div>
           </div>
           <div className="intro-item">
             <span className="intro-icon">🎓</span>
             <div className="intro-content">
               <strong>背景</strong>
-              <span>國立某大學 / 資訊工程系 / 四年級</span>
+              <span>清華大學 / 資訊工程系 / 二年級</span>
             </div>
           </div>
           <div className="intro-item">
             <span className="intro-icon">💻</span>
             <div className="intro-content">
               <strong>專長</strong>
-              <span>React, Vue, Node.js, Python, CSS</span>
+              <span>C, C++, Python</span><br></br>
+              <strong>這學期正在學</strong>
+              <span>React, CSS, JavaScript, Java</span>
             </div>
           </div>
           <div className="intro-item">
             <span className="intro-icon">🎨</span>
             <div className="intro-content">
               <strong>興趣</strong>
-              <span>開源貢獻、閱讀、技術寫作</span>
+              <span>睡覺、賴床、出去玩</span>
             </div>
           </div>
           <div className="intro-item">
             <span className="intro-icon">🚀</span>
             <div className="intro-content">
               <strong>經歷</strong>
-              <span>多次 Hackathon 參賽、全端實習生</span>
+              <span>資工系必修的一些projects
+                這學期正在學網頁開發
+              </span>
             </div>
           </div>
         </div>
