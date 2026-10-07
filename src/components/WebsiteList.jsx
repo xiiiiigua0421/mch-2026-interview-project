@@ -14,6 +14,16 @@ const getBaseUrl = (url) => {
   }
 };
 
+// Base URL for resolving absolute image paths
+const getBaseUrl = (url) => {
+  try {
+    const parsedUrl = new URL(url);
+    return `${parsedUrl.protocol}//${parsedUrl.host}`;
+  } catch {
+    return 'https://mch-2026-interview-backend.vercel.app';
+  }
+};
+
 const WebsiteList = () => {
   const [websites, setWebsites] = useState([]);
   const [loading, setLoading] = useState(true);
